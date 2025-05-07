@@ -1586,6 +1586,179 @@ ol {
 }
 
 /*======================================
+    05. Hero Area CSS
+========================================*/
+.hero-area {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #8B0000;
+    z-index: 0;
+}
+
+.hero-area .hero-shape {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    z-index: -1;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-area {
+        background-image: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-area {
+        background-image: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-area {
+        padding: 150px 0 100px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-area {
+        padding: 110px 0 80px 0;
+    }
+}
+
+.hero-area .hero-content {
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    padding: 280px 0 220px 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-area .hero-content {
+        padding: 0px 140px;
+    }
+}
+
+.hero-area .hero-content h4 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.hero-area .hero-content h1 {
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 50px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.hero-area .hero-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.hero-area .hero-content .button {
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-area .hero-content .button {
+        margin-top: 30px !important;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-area .hero-content .button {
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+.hero-area .hero-content .button .btn {
+    background-color: #fff;
+    color: #5D4037;
+}
+
+@media (max-width: 767px) {
+    .hero-area .hero-content .button .btn {
+        width: 100%;
+    }
+}
+
+.hero-area .hero-content .button .btn:hover {
+    color: #fff;
+    background-color: #5D4037;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .hero-area .hero-content h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-area .hero-content {
+        text-align: center;
+    }
+    .hero-area .hero-content h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 38px;
+    }
+    .hero-area .hero-content p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-area .hero-content {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .hero-area .hero-content h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .hero-area .hero-content p {
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .hero-area .hero-content .button .btn {
+        width: 60%;
+        margin: 0;
+        margin-bottom: 7px;
+    }
+    .hero-area .hero-content .button .btn:last-child {
+        margin: 0;
+    }
+}
+
+.hero-area .hero-image {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .hero-area .hero-image {
+        display: none;
+    }
+}
+
+.hero-area .hero-image img {
+    width: 400px;
+}
+
+
+/*======================================
     Footer CSS
 ========================================*/
 
