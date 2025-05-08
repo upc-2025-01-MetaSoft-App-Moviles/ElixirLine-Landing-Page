@@ -1770,6 +1770,105 @@ ol {
 /*======================================
     07. Services CSS
 ========================================*/
+.services {
+    position: relative;
+    z-index: 0;
+    background-color: #fff;
+}
+
+.services .section-title {
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .services .section-title {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .services .section-title {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 1400px) {
+    .services .upper-content {
+        padding-right: 100px;
+    }
+}
+
+.services .upper-content .lasthead {
+    font-size: 16px;
+    font-weight: 600;
+    color: #8B0000;
+    margin-bottom: 15px;
+}
+
+.services .upper-content .title {
+    font-size: 28px;
+    font-weight: 600;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 21px 0 16px;
+}
+
+.services .upper-content p {
+    margin-top: 20px;
+}
+
+.services .upper-content .button {
+    margin-top: 40px;
+}
+
+.services .single-service {
+    min-height: 300px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 30px rgba(81, 94, 125, 0.082);
+    box-shadow: 0px 0px 30px rgba(81, 94, 125, 0.082);
+    padding: 40px 50px;
+    text-align: center;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+.services .single-service:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    border-top-color: #8B0000;
+    border-bottom-color: #8B0000;
+}
+
+.services .single-service .main-icon {
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    text-align: center;
+    background-color: #8B0000;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 27px;
+    text-align: center;
+    display: inline-block;
+}
+
+.services .single-service .text-title {
+    color: #5D4037;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.services .single-service p {
+    line-height: 26px;
+    font-size: 15px;
+}
 
 /*======================================
     08. Intro Video CSS
