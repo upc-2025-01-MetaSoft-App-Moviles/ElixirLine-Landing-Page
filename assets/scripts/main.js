@@ -42,6 +42,14 @@
         navbarToggler.classList.toggle("active");
     });
 
+    // Initialize GLightbox
+    const lightbox = GLightbox({
+        selector: '.glightbox',
+        touchNavigation: true,
+        loop: true,
+        autoplayVideos: true
+    });
+
     /*
     async function setLanguage(lang) {
         const response = await fetch(`assets/languages/lang-${lang}.json`);
