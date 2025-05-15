@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="417264f5-16f9-43ec-9439-b603582e26e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-es.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-es.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -52,7 +52,7 @@
     "Node.js.main.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feat/Faq",
+    "git-widget-placeholder": "feat/ContactUS",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -79,7 +79,7 @@
       <workItem from="1747187558916" duration="58000" />
       <workItem from="1747296741444" duration="232000" />
       <workItem from="1747297148708" duration="404000" />
-      <workItem from="1747300856586" duration="3296000" />
+      <workItem from="1747300856586" duration="4905000" />
     </task>
     <servers />
   </component>

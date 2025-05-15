@@ -1924,3 +1924,15 @@ ol {
 /*======================================
     13. Contact CSS
 ========================================*/
+.text-darkred {
+    color: #8B0000 !important;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+.btn-danger {
+    background-color: #8B0000;
+    border: none;
+}
