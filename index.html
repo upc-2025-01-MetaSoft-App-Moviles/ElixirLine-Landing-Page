@@ -121,6 +121,134 @@
 </section>
 <!-- End Hero Area -->
 
+<!-- Start Testimonials Area -->
+<section id="testimonial" class="testimonials style2 section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">
+                    <h3 class="wow zoomIn" data-wow-delay=".2s">Customer Reviews</h3>
+                    <h2 class="wow fadeInUp" data-wow-delay=".4s">Our Testimonials</h2>
+                    <p class="wow fadeInUp" data-wow-delay=".6s">Some words from our collaborators!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row testimonial-slider">
+            <div class="col-lg-6 col-12 ">
+                <!-- Start Single Testimonial -->
+                <div class="single-testimonial">
+                    <div class="inner-content">
+                        <div class="quote-icon">
+                            <i class="lni lni-quotation"></i>
+                        </div>
+                        <div class="text">
+                            <p>
+                                "Desde que comenzamos a utilizar ElixirLine, gestionamos todo el proceso de forma clara y ordenada. Ahora podemos planificar, documentar y supervisar cada etapa sin necesidad de papel ni desorganización."
+                            </p>
+                        </div>
+                        <div class="author">
+                            <img src="assets/images/somethings/MiguelAngel.png" alt="#">
+                            <h4 class="name">Miguel Angel
+                                <span class="deg">Vinicultor</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Testimonial -->
+            </div>
+            <div class="col-lg-6 col-12 ">
+                <!-- Start Single Testimonial -->
+                <div class="single-testimonial">
+                    <div class="inner-content">
+                        <div class="quote-icon">
+                            <i class="lni lni-quotation"></i>
+                        </div>
+                        <div class="text">
+                            <p>
+                                "Lo que más aprecio es la trazabilidad que ofrece. Ahora tengo claridad total sobre cuándo y cómo se elaboró cada lote de vino. ¡Esto ha sido clave para elevar la calidad de nuestro producto!"
+                            </p>
+                        </div>
+                        <div class="author">
+                            <img src="assets/images/somethings/RafaelCaro.png" alt="#">
+                            <h4 class="name">Rafael Caro
+                                <span class="deg">Vinicultor</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Testimonial -->
+            </div>
+            <div class="col-lg-6 col-12 ">
+                <!-- Start Single Testimonial -->
+                <div class="single-testimonial">
+                    <div class="inner-content">
+                        <div class="quote-icon">
+                            <i class="lni lni-quotation"></i>
+                        </div>
+                        <div class="text">
+                            <p>
+                                "Antes llevábamos todo en libretas que a menudo se extraviaban. Ahora registro mis tareas desde el celular y mi jefe las puede ver al momento."
+                            </p>
+                        </div>
+                        <div class="author">
+                            <img src="assets/images/somethings/JoaquinLoeira.png" alt="#">
+                            <h4 class="name">Joaquin Loeira
+                                <span class="deg">Trabajador de Campo</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Testimonial -->
+            </div>
+            <div class="col-lg-6 col-12 ">
+                <!-- Start Single Testimonial -->
+                <div class="single-testimonial">
+                    <div class="inner-content">
+                        <div class="quote-icon">
+                            <i class="lni lni-quotation"></i>
+                        </div>
+                        <div class="text">
+                            <p>
+                                "Aunque en la finca no hay señal, la aplicación guarda toda la información y se sincroniza automáticamente cuando vuelve la conexión. ¡No necesito estar conectado todo el tiempo!"
+                            </p>
+                        </div>
+                        <div class="author">
+                            <img src="assets/images/somethings/JuanEsparragoza.png" alt="#">
+                            <h4 class="name">Juan Esparragoza
+                                <span class="deg">Trabajador de Campo</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Testimonial -->
+            </div>
+            <div class="col-lg-6 col-12 ">
+                <!-- Start Single Testimonial -->
+                <div class="single-testimonial">
+                    <div class="inner-content">
+                        <div class="quote-icon">
+                            <i class="lni lni-quotation"></i>
+                        </div>
+                        <div class="text">
+                            <p>
+                                "Es muy fácil de usar. Solo toco el ícono de la tarea, escribo lo que hice y listo. ¡Incluso me recuerda qué es lo próximo que debo hacer!"
+                            </p>
+                        </div>
+                        <div class="author">
+                            <img src="assets/images/somethings/ManuelSalcido.png" alt="#">
+                            <h4 class="name">Manuel Salcido
+                                <span class="deg">Trabajador de Campo</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Testimonial -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Testimonial Area -->
+
 <!-- ========================= scroll-top ========================= -->
 <a href="#" class="scroll-top">
     <i class="lni lni-chevron-up"></i>
@@ -133,5 +261,72 @@
 <script src="assets/scripts/count-up.min.js"></script>
 <script src="assets/scripts/main.js"></script>
 
+<script>
+
+    //========= testimonial
+    tns({
+        container: '.testimonial-slider',
+        items: 3,
+        slideBy: 'page',
+        autoplay: false,
+        mouseDrag: true,
+        gutter: 0,
+        nav: true,
+        controls: false,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            540: {
+                items: 1,
+            },
+            768: {
+                items: 2,
+            },
+            992: {
+                items: 2,
+            },
+            1170: {
+                items: 3,
+            }
+        }
+    });
+
+    
+    
+</script>
+
 </body>
 </html>
+
+<style>
+    .single-testimonial {
+    min-height: 350px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.single-testimonial .author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.single-testimonial .author img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-slider {
+    display: flex;
+    gap: 20px;
+}
+</style>
