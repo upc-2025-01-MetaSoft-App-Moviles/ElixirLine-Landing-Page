@@ -35,6 +35,30 @@
             backToTo.style.display = "none";
         }
     };
+    document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".faq-toggle").forEach(button => {
+            button.addEventListener("click", () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector(".faq-icon");
+
+                // Cierra otros abiertos
+                document.querySelectorAll(".faq-content").forEach(el => {
+                    if (el !== content) el.style.display = "none";
+                });
+
+                document.querySelectorAll(".faq-icon").forEach(ic => {
+                    if (ic !== icon) ic.textContent = "+";
+                });
+
+                // Alterna visibilidad actual
+                const isVisible = content.style.display === "block";
+                content.style.display = isVisible ? "none" : "block";
+                icon.textContent = isVisible ? "+" : "–";
+            });
+        });
+    });
+
+
 
     //===== mobile-menu-btn
     let navbarToggler = document.querySelector(".mobile-menu-btn");

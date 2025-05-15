@@ -833,6 +833,8 @@ ol {
     color: #fff !important;
 }
 
+
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .button .btn-alt {
         padding: 14px 25px;
@@ -1889,6 +1891,35 @@ ol {
 /*======================================
     12. Faq CSS
 ========================================*/
+.faq-answer {
+    padding: 10px 15px;
+    background-color: #fff;
+    border-left: 3px solid #8B0000;
+    margin-top: 5px;
+}
+.text-darkred {
+    color: #8B0000 !important;
+}
+
+.faq-item {
+    transition: all 0.3s ease;
+}
+
+.faq-toggle {
+    font-size: 1rem;
+    outline: none;
+}
+
+.faq-icon {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.faq-content {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    transition: all 0.3s ease;
+}
 
 /*======================================
     13. Contact CSS
